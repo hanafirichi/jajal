@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 27 Sep 2020 pada 23.49
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.6
+-- Generation Time: Oct 17, 2020 at 05:59 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `berita`
+-- Table structure for table `berita`
 --
 
 CREATE TABLE `berita` (
@@ -35,35 +35,35 @@ CREATE TABLE `berita` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `berita`
+-- Dumping data for table `berita`
 --
 
 INSERT INTO `berita` (`id`, `judul`, `isi`, `url`) VALUES
-(1, 'Roda kursi kantor 1 set (isi 5 buah) | Shopee Indonesia', 'Cocok untuk semua jenis kursi kerja Tidak perlu kursi baru cukup ganti roda serasa seperti baru kembali #rodakursi #roda #murahmeriah #surabaya #ootd ...', 'https://shopee.co.id/Roda-kursi-kantor-1-set-(isi-5-buah)-i.5916531.46057265'),
-(2, 'RODA ETALASE BAUT BULAT KARET SKK / RODA KURSI ...', 'RODA SKK 1 SET ISI 4 PCS tipe baut diameter roda:5 cm bahan roda:karet Dapat digunakan pada etalase, kursi sofa,meja,kaki kulkas dan lain lain Kwalitas ...', 'https://shopee.co.id/RODA-ETALASE-BAUT-BULAT-KARET-SKK-RODA-KURSI-LEMARI-RAK-ISI-4-PCS-i.10619021.866295462'),
-(3, 'Harga Kursi Kantor Terbaru di Indonesia September 2020', 'Kursi Kerja Tanpa Roda: Beberapa pilihan kursi kerja tidak beroda yang bisa Anda beli secara online di iprice Indonesia adalah Savello Office Chair Trinity DX ...', 'https://iprice.co.id/ruang-kerja/kursi/'),
-(4, 'Blog - Roda Adalah “Sumber Masalah” Pada Kursi Kantor, Ini ...', 'Oct 16, 2019 - Kursi kantor Anda terasa sulit digerakkan? Bisa jadi masalahnya ada pada roda kursinya, lho! Gudang Furniture akan memaparkan beberapa ...', 'https://gudangfurniture.com/blog/article/roda-adalah-sumber-masalah-pada-kursi-kantor-ini-lho-cara-merawatnya'),
-(5, 'Jual Galena Kursi Pispot Aluminum Dengan Roda Fs 699 L ...', 'Rangka kursi terbuat dari material aluminium dengan pijakan kaki yang dapat dilipat serta roda agar lebih mudah dipindahkan. Kursi Pispot ini juga dilengkapi ...\r\n', 'https://www.ruparupa.com/galena-kursi-pispot-aluminum-dengan-roda-fs699l.html'),
-(6, 'Jual Kursi Kantor Ergosit Terbaru - Harga Promo | Blibli.com', 'Jual Kursi Kantor Ergosit Terbaru - Daftar Harga Terupdate & Terbaru, Harga Promo & Diskon, ... Ergosit Castor Yc 6381 Part atau Roda Kursi Kantor [5 pcs].', 'https://www.blibli.com/brand/ergosit'),
-(7, 'Jual Kursi Kantor Minimalis Terlengkap | IKEA Indonesia', 'Lihat katalog kursi kantor IKEA untuk keperluan bisnis Anda. ... Kursi konferensi dengan roda, veneer kayu ash diwarnai hitam/Gunnared abu-abu tua. Rp 3.299.', 'https://www.ikea.co.id/in/produk/perabotan-kantor/kursi-kantor'),
-(8, 'jual kursi kantor roda - Home Furniture Jepara', 'Home / Products tagged “jual kursi kantor roda”. Filter. Showing the single result. Default sorting, Sort by popularity, Sort by average rating, Sort by latest, Sort by ...', 'https://www.homefurniturejepara.com/product-tag/jual-kursi-kantor-roda/'),
-(9, 'Chitose NA - PT. Chitose Internasional Tbk', 'Saat ini perusahaan kami menggunakan kursi chitose tipe NA. Yang mau ditanyakan, bagaimana dan di mana bisa dibeli castor/roda untuk kursi tipe tersebut?', 'https://www.chitose-indonesia.com/produk/na/'),
-(10, 'Kursi Kamar Mandi ini kami Jual dengan Harga Ekonomis', 'Toko penjual alat bantu kursi kamar mandi pasien untuk BAB dengan harga yang terjangkau. spesifikasi kursi kamar mandi ini secara detail ada di website ini.', 'https://www.alatkesehatan.id/toko/kursi-kamar-mandi-13122/'),
-(11, 'Jual Kursi Roda di Semarang - Harga Terbaru 2020 - Tokopedia', 'Beli Kursi Roda Online terdekat di Semarang berkualitas dengan harga murah terbaru 2020 di Tokopedia! Pembayaran mudah, pengiriman cepat & bisa cicil ...', 'https://www.tokopedia.com/find/kursi-roda/c/semarang'),
-(12, 'Jual Kursi Roda Standar Murah - Harga Terbaru 2020', 'Beli Kursi Roda Standar Online berkualitas dengan harga murah terbaru 2020 di Tokopedia! Pembayaran mudah, pengiriman cepat & bisa cicil 0%.', 'https://www.tokopedia.com/find/kursi-roda-standar'),
-(13, 'Jual Kursi Roda Murah dan Lengkap September 2020 ...', 'Mau tahu kursi roda merek apa saja yang dijual di Bukalapak? Ini dia. Merk dan Harga Kursi Roda Terbaik. Jenis Kursi Roda, Harga. Kursi Roda Standar SELLA ...', 'https://www.bukalapak.com/tag/kursi-roda'),
-(14, 'Jual Kursi Roda (Wheel Chair) Terbaik | Lazada.co.id', 'Belanja Online Kursi Roda Medis Lipat / Kursi Roda Traveling dari Brand Terbaik Termurah di Lazada 9.9 Big Sale! | Gratis Ongkir ? Voucher Diskon.', 'https://www.lazada.co.id/beli-kursi-roda/'),
-(15, 'Daftar Kursi Roda dengan harga murah dan bagus Agustus ...', 'Daftar Kursi Roda terbaik dan murah 2020 dijual di Indonesia. Cek beragam variasi aksesoris dengan harga terbaru di Priceprice.com.', 'https://id.priceprice.com/kesehatan-perawatan-pribadi/?sub-category=perlengkapan-medis-166%2Cwheelchairs-499'),
-(16, 'Toko Kursi Roda di Semarang - Distributor Alat Kesehatan', 'Kami toko kursi roda di Semarang yang jual kursi roda murah dan lengkap yang beralamat di Ruko Siliwangi Square Kav.2, Jl. Jenderal Sudirman No.322 ...', 'https://www.alatkesehatan.id/tag-produk/toko-kursi-roda-semarang-distributor-kursi-roda-jawa-tengah/'),
-(17, 'Jual Kursi Roda Online - Harga Menarik, Berkualitas | Blibli.com', 'Jual Kursi Roda Online Terbaru - Harga Murah & Berkualitas, Beli Online di Blibli.com, Produk Original & Bergaransi, Gratis Ongkir, Cicilan 0%\r\n', 'https://www.blibli.com/jual/kursi-roda'),
-(18, 'Distributor Kursi Roda - Jual Murah Harga Grosir | Ralali.com', 'Jual kursi roda murah harga grosir. Tersedia jenis elektrik, standard dan lainnya dari berbagai merek ternama. Cek daftar harga kursi roda terbaru disini.\r\n', 'https://www.ralali.com/c/kursi-roda-hl0555'),
-(19, 'Katalog Harga Kursi Roda - Promo Kosmetik dan Skin Care ...', 'Kursi roda adalah alat bantu yang digunakan oleh orang yang mengalami kesulitan berjalan menggunakan kaki, baik dikareanakan oleh penyakit, cedera, ...', 'https://iprice.co.id/alat-medis/kursi-roda/'),
-(20, 'Kursi Roda di Semarang Kota - OLX Murah Dengan Harga ...', 'Temukan Kursi Roda di Semarang Kota dapatkan hanya di OLX.co.id. Jutaan iklan Kursi Roda terbaru ditayangkan setiap harinya di OLX Murah dengan harga ...\r\n', 'https://www.olx.co.id/semarang-kota_g4000065/q-kursi-roda');
+(1, 'SANKOI Spirulina || Pakan Ikan koi', 'SANKOI Spirulina || Pakan Ikan koi\r\nMerk : Sankoi\r\nType : floating (mengambang)\r\nUkuran : tersedia small dan medium\r\nBerat bersih : 1 kg\r\nBagus untuk mencerahkan warna ikan kesayangan anda', 'https://www.tokopedia.com/conspirator/sankoi-spirulina-pakan-ikan-koi?refined=true&whid=0'),
+(2, 'TAKARAN MAKANAN IKAN HIAS KOI', 'Pakan yang mahal serta kandungan gizinya tinggi belum pasti pas untuk koi kita.', 'http://ikanias.blogspot.com/2013/09/takaran-makanan-ikan-hias-koi.html'),
+(3, 'KAOS KOI FISH IKAN HIAS Komunitas Pecinta Ikan KOI Indonesia Kaos DISTRO PREMIUM Hobi Ikan Koi', 'KAOS KOI, Kaos KOI FISH, Kaos IKAN KOI, Kaos Pecinta KOI Indonesia\r\nDepan  :  COTTON POLY Halus Lembut\r\nLengan & Punggung  :  COTTON COMBED 24S Nyaman Dingin\r\n\r\nHALUS - NYAMAN - DINGIN', 'Depan  :  COTTON POLY Halus Lembut\r\nLengan & Punggung  :  COTTON COMBED 24S Nyaman Dingin\r\n\r\nHALUS - NYAMAN - DINGIN'),
+(4, 'Ikan Koi – Taksonomi, Morfologi, Habitat, Asal, Sejarah & Fakta Unik', 'ikan koi berasal dari kosakata Bahasa Jepang dan jika diartikan dalam Bahasa Indonesia berarti ‘ikan karper’ meski secara fisik ikan ini berbeda dengan ikan karper yang banyak ditemukan di Indonesia.', 'https://rimbakita.com/ikan-koi/'),
+(5, 'Artikel Seputar Ikan Mas Koi', 'Menurut sejarahnya, orang Cina-lah yang per-tama kali menernakkan ikan karper, yaitu sekitar tahun 1300-an. Jika kemudian diberitakan koi mulai ngetop dan diklaim sebagai “produk” Jepang tentu ada alasannya.Pusat pembenihan koi di Jepang terdapat di daerah pegunungan Ojiya, Niigata. Daerah ini ter-kenal sebagai penghasil karper, karena penduduk di Ojiya banyak membudidayakan karper untukJauk mereka sewaktu musim panas.', 'https://yohanesfishworld.wordpress.com/artikel-seputar-ikan-mas-koi/'),
+(6, 'karet packing ikan koi karet kwetiau karet kuetiau', 'karet packing ikan koi karet kwetiau karet kuetiau\r\nKaret untuk packing ikan koi berkwalitas, kuat dan lentur sehingga tetap menjaga oksigen di kantong plastik dengan baik\r\n\r\nUkuran lebar 5mm\r\nDiamter 8 cm\r\n\r\nBerat 1 pak 100 gr\r\nKurang lebih 40 pcs isi 1 pack', 'https://www.tokopedia.com/diycorners/karet-packing-ikan-koi-karet-kwetiau-karet-kuetiau?refined=true&whid=0'),
+(7, 'Lukisan ikan koi 9 ekor/ original', 'Lukisan ikan koi 9 ekor... \r\nUkuran 60 x 80 cm??\r\n\r\nHanya lukisan, dimasukan kedalam pipa ukuran 2 inci\r\n\r\n\r\nLukisan tangan asli oleh seniman dari Bandung,, dengan kualitas terbaik.. ???\r\nMenggunakan:\r\n\r\n1. Cat minyak terbaik\r\n2. Canvas terbaik\r\n3. Detail lukisan yang keren\r\n4. Packing aman, rapih, \r\n5. Aman, cepat, tepat, terpercaya... ??\r\n\r\nCocok untuk, dekorasi rumah, restoran bernuansa seni,  cafe bernuansa seni,  dll\r\n\r\nBisa CUSTOM (pesanan sesuai keinginan)  info pemesana bisa chat atau diskusi produk\r\n\r\n#lukisan #lukisandinding  #lukisanikankoi #lukisanikan #lukisanbandung #lukisanjabar #kadounik #kadoultah #kadopernikahan #hiasandinding #hiasandindingrumah #hiasandindingmodern #interior #interiorrumah #interiordesign', 'https://shopee.co.id/Lukisan-ikan-koi-9-ekor-original-i.119992691.1905935277'),
+(8, 'Lima Keunggulan Memelihara Ikan Koi', 'Memelihara ikan hias dapat mengurangi kepenatan. Melihat ikan-ikan tersebut berenang di kolam atau akuarium menjadi hiburan tersendiri bagi orang yang melihatnya. Biasanya, ikan yang dipelihara adalah jenis ikan air tawar atau air laut.', 'https://bulelengkab.go.id/detail/artikel/lima-keunggulan-memelihara-ikan-koi-70'),
+(9, 'IKUSHU 10 KG PAKAN IKAN KOI', 'IKUSHU 10 KG PAKAN IKAN KOI\r\nPakan ikan Koi\r\nIkushu 10 KG\r\nSize : 2mm & 5mm', 'https://www.tokopedia.com/kolamfiber/ikushu-10-kg-pakan-ikan-koi?refined=true&whid=0'),
+(10, 'PENGEMBANGAN BUDIDAYA IKAN HIAS KOI', ' Komoditas ikan hias koi telah menjadi komoditas andalan di beberapa daerah seperti Sukabumi, Cianjur, dan Blitar karena telah berhasil mengangkat perekonomian masyarakat dan menjadikannya sebagai alternatif penghasilan selain padi. Guna mendukung produksi ikan hias koi di beberapa sentra yang ada, dilakukan penelitian untuk mengembangkan budidaya secara intensif yang dilakukan pada lingkungan terkontrol melalui perbaikan teknologi budidaya.', 'http://ejournal-balitbang.kkp.go.id/index.php/ma/article/view/958'),
+(11, 'miniatur ikan koi', 'miniatur ikan hias ini berbahan dari tanduk sapi asli..model ikan koki yang didesain tiga sirip ikan dibagian bawah sehingga miniatur ikan ini berdiri seperti layaknya pose ikan yang sedang berenang. kemudian di bagian tubuh ikan terdapat jg goresan-goresan sedemikian rupa sehingga membentuk seperti sisik lebih detailnya bisa dilihat pada gambar', 'https://shopee.co.id/miniatur-ikan-koi-i.53844938.875220384'),
+(12, 'STICKER BAK UKUR IKAN KOI 100CM', 'i STICKER BAK UKUR IKAN KOI 100CM\r\nSticker ukur 100cm. Tahan air, kuat dan tahan lama.', 'https://www.tokopedia.com/alankoimjl/sticker-bak-ukur-ikan-koi-100cm?refined=true&whid=0'),
+(13, 'Langkah Mudah Budidaya Ternak Ikan Koi untuk Pemula', 'Ikan Koi mulai dikenal luas oleh masyarakat karena orang Jepang yang senang memeliharanya dan memasarkannya ke berbagai negara. Hal tersebut dikarenakan, tidak hanya sebagai simbol persahabatan yang abadi serta cinta yang tulis, masyarakat Jepang juga percaya bahwa jenis ikan satu ini dapat mendatangkan keberuntungan.', 'https://www.cekaja.com/info/langkah-mudah-budidaya-ternak-ikan-koi-untuk-pemula/'),
+(14, 'makanan ikan koi Hokky Wheat germ', 'Deskripsi makanan ikan koi Hokky Wheat germ\r\nAda 3 ukuran pellet\r\n\r\nSmall\r\n\r\nMedium\r\n\r\nLarge', 'https://www.tokopedia.com/starpetshopdepok/makanan-ikan-koi-hokky-wheat-germ?refined=true&whid=0'),
+(15, 'Bantal Ikan Koi Bantal Bentuk Ikan Bantal Boneka Ikan Size M', 'Bantal Ikan Koi\r\n(BISA REQUEST MOTIF LAIN, BISA KONFIRMASI MELALUI ADMIN.)\r\nBahan : Velboa printing\r\nUkuran : 50cm\r\nBerat : 350gr (1kg muat 3pcs)\r\n - Menggunakan silicon untuk isian bantal sehingga lebih empuk , dan dapat mengembang kembali (tidak mudah kempes) \r\n- Menggunakan kain velboa halus dan lembut sehingga nyaman dipakai\r\n- Tersedia dengan berbagai pilihan motif warna', 'https://shopee.co.id/Bantal-Ikan-Koi-Bantal-Bentuk-Ikan-Bantal-Boneka-Ikan-Size-M-i.974536.2684066888'),
+(16, 'Informasi Lengkap tentang Jenis-Jenis Ikan Koi dan Cara Merawatnya', 'Ada banyak sekali jenis-jenis ikan koi yang bisa kamu jadikan hewan peliharaan di rumahmu. Di artikel ini, kamu bisa menemukan informasi lebih lanjut tentang beberapa macam ikan yang berasal dari Jepang ini. Tidak hanya itu, kamu juga bisa mengetahui lebih lanjut tentang cara merawatnya.', 'https://www.kepogaul.com/hewan/jenis-jenis-ikan-koi/'),
+(17, 'Garam Ikan Cupang/Hias/Koi/Guppy - 500 gram', 'Garam Kasar / Krosok / Ikan Kualitas 1 Premium.  \r\n\r\nGaram ini berfungsi sebagai penyeimbang osmosis dalam tubuh ikan. Ini bisa membantu penyembuhan luka dan menstabilkan metabolisme tubuh mereka.\r\nJangan beri terlalu banyak garam. Dosis normalnya itu 0,1% dari air atau 10 gram per 1 liter air. Plus, kalau untuk sekadar memperbagus sirip, sedikit saja cukup. Dosis garam ikan ini cukup tinggi, jangan sampai menambahkan terlalu banyak.\r\n\r\nManfaat Lainnya Untuk Ikan :\r\n\r\n> Menyeimbangkan pH air. \r\n> Mengatasi white spot / kembung pada ikan. \r\n> Mencegah & mengatasi stress hingga keadaan terluka.\r\n> Melepaskan Lintah serta Obat Infeksi (Velvet). \r\n\r\nGARAM INI MASIH MENGANDUNG NUTRISI AIR LAUT\r\n\r\nSehingga manfaat lainnya cocok untuk :\r\n\r\n> Regenerasi resin kation pada filter air.\r\n> Budidaya ikan, udang, kepiting. \r\n> Penyubur tanaman. \r\n\r\nGaram ini tak hanya digunakan untuk itu saja, tetapi juga untuk terapi kesehatan dan rileksasi. Garam krosok mengandung ion dan mineral seperti ion natrium (Na+), kalium (K+), magnesium (Mg++), kalsium (Ca++), karbonat bikarbonat (CO3 2- dan HCO3 2-), dan klorida (Cl-).\r\n\r\n- Isi 500 - 530 gram /pack\r\n- NON Yodium.\r\n- Kualitas 1 (Putih bersih mulus).\r\n- Berasal dari wilayah yg berkualitas lokal terbaik. \r\n\r\n*NOTE : Berat produk sudah termasuk packing. ', 'https://shopee.co.id/Garam-Ikan-Cupang-Hias-Koi-Guppy-500-gram-i.283874027.7346452195'),
+(18, 'Mesin Pompa Kolam Ikan Koi YANG YP-103 25W YP103 Naik 1,2 Meter', 'MURAH MURAH MURAH\r\n----------------------------------\r\n\r\nORIGINAL PRODUK\r\nFirst Hand Supplier, bukan barang KW apalagi palsu\r\n\r\nGAMBAR PRODUK ADALAH REAL PICTURE YANG KAMI FOTO SENDIRI \"ADA WATERMARK PUSAT AQUARIUM MURAH\"\r\n\r\nBILA ADA TOKO LAIN YG MEMAKAI GAMBAR TERSEBUT MAKA KAMI TIDAK BERTANGGUNG JAWAB ATAS KUALITAS & JAMINAN PRODUK TERSEBUT\r\n\r\nKEUNGGULAN:\r\n~ Tenaga besar semburan kencang\r\n~ Lebih awet dan tahan lama\r\n~ Mesin full terendam, tidak boleh separuh tenggelam\r\n~ Dapat digunakan untuk mesin sirkulasi filter kolam atau aquarium\r\n~ Kualitas satu tingkat di atas merk yamano\r\n~ Cocok untuk air tawar dan air laut\r\n~ Menjaga kualitas dan kebersihan air\r\n~ Direkomendasikan untuk kolam kecil dengan ketinggian dibawah 1 meter\r\n~ Bisa juga dipakai untuk aquarium dengan panjang lebih dari 60 cm\r\n~ Bisa juga untuk sirkulasi nutrisi hidroponik dan aquaponik', 'https://www.tokopedia.com/pusataquarium/mesin-pompa-kolam-ikan-koi-yang-yp-103-25w-yp103-naik-1-2-meter?refined=true&whid=0'),
+(19, 'Bukan Cuma Hobi, Ikan Koi Bikin Hidup Tenang dan Damai', 'Koi merupakan ikan hias dari Jepang yang sangat popular di kalangan pecinta ikan. Ikan satu ini memiliki estetika keindahan yang tiada duanya. Terlebih, ada banyak ragam motif dan corak ikan koi yang bisa dipelihari.\r\n\r\nMenurut, salah satu penghobi Koi di Kabupaten Subang, Luthfi Fuadi, jika ingin memiliki ikan hias ini, pastikan dulu sudah memahami cara memelihara ikan koi yang benar. Jangan sampai ikan koi malah rentan terkena penyakit dan mati.', 'http://www.tintahijau.com/megapolitan/ragam/22391-bukan-cuma-hobi,-ikan-koi-bikin-hidup-tenang-dan-damai'),
+(20, 'Pelet ikan koi - pakan ikan koi merk sakura', 'Deskripsi Pelet ikan koi - pakan ikan koi merk sakura\r\nPakan ikan koi/ikan mas merk SAKURA\r\nPelet terbaik untuk ikan anda\r\n\r\nReady Ukuran 2mm , 3mm dan 5mm', 'https://www.tokopedia.com/kiosburungrudi/pelet-ikan-koi-pakan-ikan-koi-merk-sakura?refined=true&whid=0');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `stopword`
+-- Table structure for table `stopword`
 --
 
 CREATE TABLE `stopword` (
@@ -71,7 +71,7 @@ CREATE TABLE `stopword` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `stopword`
+-- Dumping data for table `stopword`
 --
 
 INSERT INTO `stopword` (`stopword`) VALUES
@@ -824,7 +824,7 @@ INSERT INTO `stopword` (`stopword`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `token`
+-- Table structure for table `token`
 --
 
 CREATE TABLE `token` (
@@ -836,18 +836,27 @@ CREATE TABLE `token` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `token`
+-- Dumping data for table `token`
 --
 
 INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('1', '1', '0', 'cocok', '1'),
+('1', '2', '0', 'untuk', '1'),
+('1', '3', '0', 'semua', '1'),
 ('1', '4', '0', 'jenis', '1'),
 ('1', '5', '0', 'kursi', '1'),
 ('1', '6', '0', 'kerja', '1'),
+('1', '7', '0', 'tidak', '1'),
+('1', '8', '0', 'perlu', '1'),
 ('1', '9', '0', 'kursi', '1'),
+('1', '10', '0', 'baru', '1'),
+('1', '11', '0', 'cukup', '1'),
 ('1', '12', '0', 'ganti', '1'),
 ('1', '13', '0', 'roda', '1'),
 ('1', '14', '0', 'serasa', '1'),
+('1', '15', '0', 'seperti', '1'),
+('1', '16', '0', 'baru', '1'),
+('1', '17', '0', 'kembali', '1'),
 ('1', '18', '0', 'rodakursi', '1'),
 ('1', '19', '0', 'roda', '1'),
 ('1', '20', '0', 'murahmeriah', '1'),
@@ -866,24 +875,39 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('2', '11', '0', 'bahan', '1'),
 ('2', '12', '0', 'roda', '1'),
 ('2', '13', '0', 'karet', '1'),
+('2', '14', '0', 'dapat', '1'),
+('2', '15', '0', 'digunakan', '1'),
+('2', '16', '0', 'pada', '1'),
 ('2', '17', '0', 'etalase', '1'),
 ('2', '18', '0', 'kursi', '1'),
 ('2', '19', '0', 'sofa', '1'),
 ('2', '20', '0', 'meja', '1'),
 ('2', '21', '0', 'kaki', '1'),
 ('2', '22', '0', 'kulkas', '1'),
+('2', '23', '0', 'dan', '1'),
+('2', '24', '0', 'lain', '1'),
+('2', '25', '0', 'lain', '1'),
 ('2', '26', '0', 'kwalitas', '1'),
 ('3', '1', '0', 'kursi', '1'),
 ('3', '2', '0', 'kerja', '1'),
+('3', '3', '0', 'tanpa', '1'),
 ('3', '4', '0', 'roda', '1'),
+('3', '5', '0', 'beberapa', '1'),
 ('3', '6', '0', 'pilihan', '1'),
 ('3', '7', '0', 'kursi', '1'),
 ('3', '8', '0', 'kerja', '1'),
+('3', '9', '0', 'tidak', '1'),
 ('3', '10', '0', 'beroda', '1'),
+('3', '11', '0', 'yang', '1'),
+('3', '12', '0', 'bisa', '1'),
+('3', '13', '0', 'anda', '1'),
 ('3', '14', '0', 'beli', '1'),
+('3', '15', '0', 'secara', '1'),
 ('3', '16', '0', 'online', '1'),
+('3', '17', '0', 'di', '1'),
 ('3', '18', '0', 'iprice', '1'),
 ('3', '19', '0', 'indonesia', '1'),
+('3', '20', '0', 'adalah', '1'),
 ('3', '21', '0', 'savello', '1'),
 ('3', '22', '0', 'office', '1'),
 ('3', '23', '0', 'chair', '1'),
@@ -892,27 +916,45 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('4', '1', '0', 'oct', '1'),
 ('4', '2', '0', 'kursi', '1'),
 ('4', '3', '0', 'kantor', '1'),
+('4', '4', '0', 'anda', '1'),
+('4', '5', '0', 'terasa', '1'),
 ('4', '6', '0', 'sulit', '1'),
 ('4', '7', '0', 'digerakkan', '1'),
+('4', '8', '0', 'bisa', '1'),
+('4', '9', '0', 'jadi', '1'),
+('4', '10', '0', 'masalahnya', '1'),
+('4', '11', '0', 'ada', '1'),
+('4', '12', '0', 'pada', '1'),
 ('4', '13', '0', 'roda', '1'),
 ('4', '14', '0', 'kursinya', '1'),
 ('4', '15', '0', 'lho', '1'),
 ('4', '16', '0', 'gudang', '1'),
 ('4', '17', '0', 'furniture', '1'),
+('4', '18', '0', 'akan', '1'),
 ('4', '19', '0', 'memaparkan', '1'),
+('4', '20', '0', 'beberapa', '1'),
 ('5', '1', '0', 'rangka', '1'),
 ('5', '2', '0', 'kursi', '1'),
 ('5', '3', '0', 'terbuat', '1'),
+('5', '4', '0', 'dari', '1'),
 ('5', '5', '0', 'material', '1'),
 ('5', '6', '0', 'aluminium', '1'),
+('5', '7', '0', 'dengan', '1'),
 ('5', '8', '0', 'pijakan', '1'),
 ('5', '9', '0', 'kaki', '1'),
+('5', '10', '0', 'yang', '1'),
+('5', '11', '0', 'dapat', '1'),
 ('5', '12', '0', 'dilipat', '1'),
+('5', '13', '0', 'serta', '1'),
 ('5', '14', '0', 'roda', '1'),
+('5', '15', '0', 'agar', '1'),
+('5', '16', '0', 'lebih', '1'),
 ('5', '17', '0', 'mudah', '1'),
 ('5', '18', '0', 'dipindahkan', '1'),
 ('5', '19', '0', 'kursi', '1'),
 ('5', '20', '0', 'pispot', '1'),
+('5', '21', '0', 'ini', '1'),
+('5', '22', '0', 'juga', '1'),
 ('5', '23', '0', 'dilengkapi', '1'),
 ('6', '1', '0', 'jual', '1'),
 ('6', '2', '0', 'kursi', '1'),
@@ -930,6 +972,7 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('6', '14', '0', 'castor', '1'),
 ('6', '15', '0', 'yc', '1'),
 ('6', '16', '0', 'part', '1'),
+('6', '17', '0', 'atau', '1'),
 ('6', '18', '0', 'roda', '1'),
 ('6', '19', '0', 'kursi', '1'),
 ('6', '20', '0', 'kantor', '1'),
@@ -939,10 +982,13 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('7', '3', '0', 'kursi', '1'),
 ('7', '4', '0', 'kantor', '1'),
 ('7', '5', '0', 'ikea', '1'),
+('7', '6', '0', 'untuk', '1'),
 ('7', '7', '0', 'keperluan', '1'),
 ('7', '8', '0', 'bisnis', '1'),
+('7', '9', '0', 'anda', '1'),
 ('7', '10', '0', 'kursi', '1'),
 ('7', '11', '0', 'konferensi', '1'),
+('7', '12', '0', 'dengan', '1'),
 ('7', '13', '0', 'roda', '1'),
 ('7', '14', '0', 'veneer', '1'),
 ('7', '15', '0', 'kayu', '1'),
@@ -980,16 +1026,30 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('8', '24', '0', 'latest', '1'),
 ('8', '25', '0', 'sort', '1'),
 ('8', '26', '0', 'by', '1'),
+('9', '1', '0', 'saat', '1'),
+('9', '2', '0', 'ini', '1'),
 ('9', '3', '0', 'perusahaan', '1'),
+('9', '4', '0', 'kami', '1'),
+('9', '5', '0', 'menggunakan', '1'),
 ('9', '6', '0', 'kursi', '1'),
 ('9', '7', '0', 'chitose', '1'),
 ('9', '8', '0', 'tipe', '1'),
 ('9', '9', '0', 'na', '1'),
+('9', '10', '0', 'yang', '1'),
+('9', '11', '0', 'mau', '1'),
+('9', '12', '0', 'ditanyakan', '1'),
+('9', '13', '0', 'bagaimana', '1'),
+('9', '14', '0', 'dan', '1'),
+('9', '15', '0', 'di', '1'),
+('9', '16', '0', 'mana', '1'),
+('9', '17', '0', 'bisa', '1'),
 ('9', '18', '0', 'dibeli', '1'),
 ('9', '19', '0', 'castor', '1'),
 ('9', '20', '0', 'roda', '1'),
+('9', '21', '0', 'untuk', '1'),
 ('9', '22', '0', 'kursi', '1'),
 ('9', '23', '0', 'tipe', '1'),
+('9', '24', '0', 'tersebut', '1'),
 ('10', '1', '0', 'toko', '1'),
 ('10', '2', '0', 'penjual', '1'),
 ('10', '3', '0', 'alat', '1'),
@@ -998,30 +1058,42 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('10', '6', '0', 'kamar', '1'),
 ('10', '7', '0', 'mandi', '1'),
 ('10', '8', '0', 'pasien', '1'),
+('10', '9', '0', 'untuk', '1'),
 ('10', '10', '0', 'bab', '1'),
+('10', '11', '0', 'dengan', '1'),
 ('10', '12', '0', 'harga', '1'),
+('10', '13', '0', 'yang', '1'),
 ('10', '14', '0', 'terjangkau', '1'),
 ('10', '15', '0', 'spesifikasi', '1'),
 ('10', '16', '0', 'kursi', '1'),
 ('10', '17', '0', 'kamar', '1'),
 ('10', '18', '0', 'mandi', '1'),
+('10', '19', '0', 'ini', '1'),
+('10', '20', '0', 'secara', '1'),
 ('10', '21', '0', 'detail', '1'),
+('10', '22', '0', 'ada', '1'),
+('10', '23', '0', 'di', '1'),
 ('10', '24', '0', 'website', '1'),
+('10', '25', '0', 'ini', '1'),
 ('11', '1', '0', 'beli', '1'),
 ('11', '2', '0', 'kursi', '1'),
 ('11', '3', '0', 'roda', '1'),
 ('11', '4', '0', 'online', '1'),
 ('11', '5', '0', 'terdekat', '1'),
+('11', '6', '0', 'di', '1'),
 ('11', '7', '0', 'semarang', '1'),
 ('11', '8', '0', 'berkualitas', '1'),
+('11', '9', '0', 'dengan', '1'),
 ('11', '10', '0', 'harga', '1'),
 ('11', '11', '0', 'murah', '1'),
 ('11', '12', '0', 'terbaru', '1'),
+('11', '13', '0', 'di', '1'),
 ('11', '14', '0', 'tokopedia', '1'),
 ('11', '15', '0', 'pembayaran', '1'),
 ('11', '16', '0', 'mudah', '1'),
 ('11', '17', '0', 'pengiriman', '1'),
 ('11', '18', '0', 'cepat', '1'),
+('11', '19', '0', 'bisa', '1'),
 ('11', '20', '0', 'cicil', '1'),
 ('12', '1', '0', 'beli', '1'),
 ('12', '2', '0', 'kursi', '1'),
@@ -1029,21 +1101,33 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('12', '4', '0', 'standar', '1'),
 ('12', '5', '0', 'online', '1'),
 ('12', '6', '0', 'berkualitas', '1'),
+('12', '7', '0', 'dengan', '1'),
 ('12', '8', '0', 'harga', '1'),
 ('12', '9', '0', 'murah', '1'),
 ('12', '10', '0', 'terbaru', '1'),
+('12', '11', '0', 'di', '1'),
 ('12', '12', '0', 'tokopedia', '1'),
 ('12', '13', '0', 'pembayaran', '1'),
 ('12', '14', '0', 'mudah', '1'),
 ('12', '15', '0', 'pengiriman', '1'),
 ('12', '16', '0', 'cepat', '1'),
+('12', '17', '0', 'bisa', '1'),
 ('12', '18', '0', 'cicil', '1'),
+('13', '1', '0', 'mau', '1'),
+('13', '2', '0', 'tahu', '1'),
 ('13', '3', '0', 'kursi', '1'),
 ('13', '4', '0', 'roda', '1'),
 ('13', '5', '0', 'merek', '1'),
+('13', '6', '0', 'apa', '1'),
+('13', '7', '0', 'saja', '1'),
+('13', '8', '0', 'yang', '1'),
 ('13', '9', '0', 'dijual', '1'),
+('13', '10', '0', 'di', '1'),
 ('13', '11', '0', 'bukalapak', '1'),
+('13', '12', '0', 'ini', '1'),
+('13', '13', '0', 'dia', '1'),
 ('13', '14', '0', 'merk', '1'),
+('13', '15', '0', 'dan', '1'),
 ('13', '16', '0', 'harga', '1'),
 ('13', '17', '0', 'kursi', '1'),
 ('13', '18', '0', 'roda', '1'),
@@ -1065,9 +1149,11 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('14', '7', '0', 'kursi', '1'),
 ('14', '8', '0', 'roda', '1'),
 ('14', '9', '0', 'traveling', '1'),
+('14', '10', '0', 'dari', '1'),
 ('14', '11', '0', 'brand', '1'),
 ('14', '12', '0', 'terbaik', '1'),
 ('14', '13', '0', 'termurah', '1'),
+('14', '14', '0', 'di', '1'),
 ('14', '15', '0', 'lazada', '1'),
 ('14', '16', '0', 'big', '1'),
 ('14', '17', '0', 'sale', '1'),
@@ -1079,27 +1165,37 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('15', '2', '0', 'kursi', '1'),
 ('15', '3', '0', 'roda', '1'),
 ('15', '4', '0', 'terbaik', '1'),
+('15', '5', '0', 'dan', '1'),
 ('15', '6', '0', 'murah', '1'),
 ('15', '7', '0', 'dijual', '1'),
+('15', '8', '0', 'di', '1'),
 ('15', '9', '0', 'indonesia', '1'),
 ('15', '10', '0', 'cek', '1'),
 ('15', '11', '0', 'beragam', '1'),
 ('15', '12', '0', 'variasi', '1'),
 ('15', '13', '0', 'aksesoris', '1'),
+('15', '14', '0', 'dengan', '1'),
 ('15', '15', '0', 'harga', '1'),
 ('15', '16', '0', 'terbaru', '1'),
+('15', '17', '0', 'di', '1'),
 ('15', '18', '0', 'priceprice', '1'),
 ('15', '19', '0', 'com', '1'),
+('16', '1', '0', 'kami', '1'),
 ('16', '2', '0', 'toko', '1'),
 ('16', '3', '0', 'kursi', '1'),
 ('16', '4', '0', 'roda', '1'),
+('16', '5', '0', 'di', '1'),
 ('16', '6', '0', 'semarang', '1'),
+('16', '7', '0', 'yang', '1'),
 ('16', '8', '0', 'jual', '1'),
 ('16', '9', '0', 'kursi', '1'),
 ('16', '10', '0', 'roda', '1'),
 ('16', '11', '0', 'murah', '1'),
+('16', '12', '0', 'dan', '1'),
 ('16', '13', '0', 'lengkap', '1'),
+('16', '14', '0', 'yang', '1'),
 ('16', '15', '0', 'beralamat', '1'),
+('16', '16', '0', 'di', '1'),
 ('16', '17', '0', 'ruko', '1'),
 ('16', '18', '0', 'siliwangi', '1'),
 ('16', '19', '0', 'square', '1'),
@@ -1118,6 +1214,7 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('17', '8', '0', 'berkualitas', '1'),
 ('17', '9', '0', 'beli', '1'),
 ('17', '10', '0', 'online', '1'),
+('17', '11', '0', 'di', '1'),
 ('17', '12', '0', 'blibli', '1'),
 ('17', '13', '0', 'com', '1'),
 ('17', '14', '0', 'produk', '1'),
@@ -1136,6 +1233,10 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('18', '8', '0', 'jenis', '1'),
 ('18', '9', '0', 'elektrik', '1'),
 ('18', '10', '0', 'standard', '1'),
+('18', '11', '0', 'dan', '1'),
+('18', '12', '0', 'lainnya', '1'),
+('18', '13', '0', 'dari', '1'),
+('18', '14', '0', 'berbagai', '1'),
 ('18', '15', '0', 'merek', '1'),
 ('18', '16', '0', 'ternama', '1'),
 ('18', '17', '0', 'cek', '1'),
@@ -1144,24 +1245,36 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('18', '20', '0', 'kursi', '1'),
 ('18', '21', '0', 'roda', '1'),
 ('18', '22', '0', 'terbaru', '1'),
+('18', '23', '0', 'disini', '1'),
 ('19', '1', '0', 'kursi', '1'),
 ('19', '2', '0', 'roda', '1'),
+('19', '3', '0', 'adalah', '1'),
 ('19', '4', '0', 'alat', '1'),
 ('19', '5', '0', 'bantu', '1'),
+('19', '6', '0', 'yang', '1'),
+('19', '7', '0', 'digunakan', '1'),
+('19', '8', '0', 'oleh', '1'),
 ('19', '9', '0', 'orang', '1'),
+('19', '10', '0', 'yang', '1'),
 ('19', '11', '0', 'mengalami', '1'),
 ('19', '12', '0', 'kesulitan', '1'),
 ('19', '13', '0', 'berjalan', '1'),
+('19', '14', '0', 'menggunakan', '1'),
 ('19', '15', '0', 'kaki', '1'),
+('19', '16', '0', 'baik', '1'),
 ('19', '17', '0', 'dikareanakan', '1'),
+('19', '18', '0', 'oleh', '1'),
 ('19', '19', '0', 'penyakit', '1'),
 ('19', '20', '0', 'cedera', '1'),
 ('20', '1', '0', 'temukan', '1'),
 ('20', '2', '0', 'kursi', '1'),
 ('20', '3', '0', 'roda', '1'),
+('20', '4', '0', 'di', '1'),
 ('20', '5', '0', 'semarang', '1'),
 ('20', '6', '0', 'kota', '1'),
 ('20', '7', '0', 'dapatkan', '1'),
+('20', '8', '0', 'hanya', '1'),
+('20', '9', '0', 'di', '1'),
 ('20', '10', '0', 'olx', '1'),
 ('20', '11', '0', 'co', '1'),
 ('20', '12', '0', 'id', '1'),
@@ -1171,9 +1284,12 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 ('20', '16', '0', 'roda', '1'),
 ('20', '17', '0', 'terbaru', '1'),
 ('20', '18', '0', 'ditayangkan', '1'),
+('20', '19', '0', 'setiap', '1'),
 ('20', '20', '0', 'harinya', '1'),
+('20', '21', '0', 'di', '1'),
 ('20', '22', '0', 'olx', '1'),
 ('20', '23', '0', 'murah', '1'),
+('20', '24', '0', 'dengan', '1'),
 ('20', '25', '0', 'harga', '1');
 
 --
@@ -1181,23 +1297,23 @@ INSERT INTO `token` (`id`, `no`, `kode`, `kata`, `freq`) VALUES
 --
 
 --
--- Indeks untuk tabel `berita`
+-- Indexes for table `berita`
 --
 ALTER TABLE `berita`
   ADD KEY `hasil` (`id`);
 
 --
--- Indeks untuk tabel `token`
+-- Indexes for table `token`
 --
 ALTER TABLE `token`
   ADD KEY `no` (`id`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `berita`
+-- AUTO_INCREMENT for table `berita`
 --
 ALTER TABLE `berita`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;

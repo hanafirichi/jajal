@@ -10,7 +10,7 @@ h2 {
 </style>
 </head>
 <body>
-<h2 align=center><br>Sistem Temu Kembali Informasi<br><u><font color="White">All About Xiaomi</font></u><br><br></h2>
+<h2 align=center><br>Sistem Temu Kembali Informasi<br><br></h2>
 <hr>
 <div align=center>
 | <a href="koneksi.php">Koneksi</a> |
@@ -23,6 +23,9 @@ h2 {
 <a href="datastopword.php">Data Stopword</a> |
 <a href="prosesstopword.php">Proses Stopword</a> |
 <a href="prosesstemming.php">Proses Stemming</a> |
+<a href="tf.php">Term Frequency</a> |
+<a href="idf.php">Invers Document Frequency</a> |
+<a href="tfidf.php">TF.IDF</a> |
 </div>
 <hr/>
 </body>
